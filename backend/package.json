@@ -1,0 +1,13 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js/Express-style backend for Rupee Ledger",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}
