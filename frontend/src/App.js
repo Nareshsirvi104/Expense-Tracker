@@ -186,7 +186,7 @@ export default function App() {
       });
       setExpenses(data);
     } catch { addToast('Failed to load expenses', 'error'); }
-  }, [filters]);
+  }, [filters, addToast]);
 
   const loadSummary = useCallback(async () => {
     try { setSummary(await api.fetchSummary()); } catch {}
