@@ -1,7 +1,5 @@
 # 💰 Rupee Ledger — Expense Tracker
 
-**Exercise 2: Mini Expense Tracker**
-
 A full-stack expense tracking app where you can log daily spending across categories, visualise it with charts, set monthly budgets, and export records as CSV. Backend is a zero-dependency Node.js server with JSON file storage. Frontend is React with Indian Rupee (₹) formatting and an editorial design.
 
 ---
